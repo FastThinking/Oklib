@@ -1,28 +1,26 @@
 package com.oklib.base;
 
 import android.app.Activity;
-import android.arch.lifecycle.Lifecycle;
+import androidx.lifecycle.Lifecycle;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.res.TypedArray;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.CallSuper;
-import android.support.annotation.MainThread;
-import android.support.v7.widget.Toolbar;
+import androidx.annotation.CallSuper;
+import androidx.annotation.MainThread;
+import androidx.appcompat.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import com.oklib.AppManager;
-import com.oklib.CoreApp;
 import com.oklib.R;
 import com.oklib.base.swipeback.SwipeBackLayout;
 import com.oklib.utils.RxLifecycleUtils;
 import com.oklib.utils.TUtil;
-import com.oklib.utils.view.ThemeUtil;
 import com.uber.autodispose.AutoDisposeConverter;
 
 import org.jetbrains.annotations.NotNull;

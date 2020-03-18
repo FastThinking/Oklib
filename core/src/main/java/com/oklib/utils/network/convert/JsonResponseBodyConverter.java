@@ -1,6 +1,6 @@
 package com.oklib.utils.network.convert;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import java.io.IOException;
 

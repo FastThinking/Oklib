@@ -2,12 +2,12 @@ package com.dm.learn.rxjava;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Environment;
-import android.support.design.widget.NavigationView;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.widget.Toolbar;
+
+import com.google.android.material.navigation.NavigationView;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -16,14 +16,11 @@ import com.dm.learn.rxjava.ch2.FragmentRxjavaCh2;
 import com.dm.learn.rxjava.ch2.FragmentRxjavaCh3;
 import com.dm.learn.rxjava.rxbus.ExceptionEvent;
 import com.dm.learn.rxjava.rxbus.RxBusTestActivity;
-import com.dunkeng.BuildConfig;
 import com.dunkeng.R;
 import com.oklib.base.CoreBaseActivity;
 import com.oklib.utils.Logger.Logger;
 import com.oklib.utils.rxbus.BusManager;
 import com.oklib.utils.rxbus.Subscribe;
-
-import java.io.File;
 
 import butterknife.BindView;
 

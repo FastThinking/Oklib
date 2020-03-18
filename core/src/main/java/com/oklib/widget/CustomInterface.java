@@ -1,6 +1,6 @@
 package com.oklib.widget;
 
-import android.support.v4.view.PagerAdapter;
+import androidx.viewpager.widget.PagerAdapter;
 
 /**
  * @author: 蜡笔小新

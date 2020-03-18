@@ -1,6 +1,6 @@
 package com.oklib.widget.recyclerview.observer;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.oklib.widget.recyclerview.adapter.RecyclerArrayAdapter;
 import com.oklib.widget.recyclerview.CoreRecyclerView;

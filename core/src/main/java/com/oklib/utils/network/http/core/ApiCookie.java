@@ -1,7 +1,7 @@
 package com.oklib.utils.network.http.core;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 
 import com.oklib.utils.network.http.mode.CookiesStore;

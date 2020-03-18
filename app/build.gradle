@@ -59,9 +59,28 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation project(':core')
-    api rootProject.ext.dependencies["glide"]
-    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
-    annotationProcessor(rootProject.ext.dependencies["butterknife-compiler"]) {
-        exclude module: 'support-annotations'
-    }
+//    api rootProject.ext.dependencies["glide"]
+
+//    //图片加载——Glide
+//    implementation "com.github.bumptech.glide:glide:4.8.0"
+//    annotationProcessor "com.github.bumptech.glide:compiler:4.8.0"
+////    兼容androidx
+//    implementation "com.android.support:support-annotations:28.0.0-alpha3"
+//    annotationProcessor "com.android.support:support-annotations:28.0.0-alpha3"
+
+
+//图片加载——Glide
+    implementation "com.github.bumptech.glide:glide:4.9.0"
+    implementation "com.github.bumptech.glide:okhttp3-integration:4.9.0"
+    annotationProcessor "com.github.bumptech.glide:compiler:4.9.0"
+    implementation 'androidx.annotation:annotation:1.1.0'
+    annotationProcessor 'androidx.annotation:annotation:1.1.0'
+
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+
+//    implementation 'com.jakewharton:butterknife:8.8.1'
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
+
 }

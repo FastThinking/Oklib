@@ -1,8 +1,8 @@
 package com.dunkeng.ganhuo;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.widget.SwipeRefreshLayout;
+import androidx.annotation.Nullable;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import android.view.View;
 
 import com.dunkeng.R;
@@ -18,7 +18,6 @@ import com.dunkeng.ganhuo.view.GanHuosAdapter;
 import com.oklib.base.CoreBaseFragment;
 import com.oklib.utils.view.ToastUtils;
 import com.oklib.widget.recyclerview.CoreRecyclerView;
-import com.oklib.widget.recyclerview.adapter.RecyclerArrayAdapter;
 import com.oklib.widget.recyclerview.inter.OnItemClickListener;
 
 import butterknife.BindView;

@@ -4,11 +4,11 @@ import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.NavigationView;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.navigation.NavigationView;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.widget.Toolbar;
 import android.view.KeyEvent;
 import android.view.MenuItem;
 import android.view.View;
@@ -50,11 +50,12 @@ import java.util.List;
 import java.util.Map;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 import io.reactivex.functions.Consumer;
 
 public class MainActivity extends CoreBaseActivity<MainPresenter, MainModel> implements NavigationView.OnNavigationItemSelectedListener, OnFragmentOpenDrawerListener, MainContract.MainView {
 
-    @BindView(R.id.nav_view)
+    @BindView(R.id.nav_view_main)
     NavigationView navigationView;
     @BindView(R.id.drawer_layout)
     DrawerLayout drawer;
