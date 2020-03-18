@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Oklib.iml" filepath="$PROJECT_DIR$/Oklib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/Oklib-app.iml" filepath="$PROJECT_DIR$/app/Oklib-app.iml" group="Oklib/app" />
+      <module fileurl="file://$PROJECT_DIR$/core/Oklib-core.iml" filepath="$PROJECT_DIR$/core/Oklib-core.iml" group="Oklib/core" />
+      <module fileurl="file://$PROJECT_DIR$/android-Oklib.iml" filepath="$PROJECT_DIR$/android-Oklib.iml" group="Oklib" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
     </modules>
